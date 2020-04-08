@@ -12,7 +12,7 @@ $("#date").html(d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear());
 </script>
 
 <style>
-.bisablog-card {padding: 5%; border:1px solid #eaeaea; background:#f4f4f4;border-radius:10px}
+.bisablog-card {padding-top: 5%;}
 .bisablog-card p {color:#fff}
 .bisablog-positif {background:#e53935}
 .bisablog-sembuh {background:#43a047}
@@ -22,7 +22,9 @@ $("#date").html(d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear());
 .bisablog-card p{font-weight:bold}
 </style>
 
+<div class="bisablog-card">
     <div class="bisablog-info"><h2>DATA COVID-19 INDONESIA</h2></div>
     <p class="bisablog-positif">&#128567 Positif: <span id="terjangkit"></span></p>
     <p class="bisablog-sembuh">&#128522 Sembuh: <span id="sembuh"></span></p>
     <p class="bisablog-meninggal">&#128557 Meninggal: <span id="meninggal"></span></p>
+</div>
