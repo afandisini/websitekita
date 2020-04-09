@@ -17,9 +17,11 @@ $("#date").html(d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear());
 <table class="table">
   <tbody>
     <tr class="active">
-      <td class="bg-error">&#128567 Positif: <span id="terjangkit"></span></td>
-      <td class="bg-success">&#128522 Sembuh: <span id="sembuh"></span></td>
-      <td class="bg-dark">&#128557 Meninggal: <span id="meninggal"></span></td>
+        <td class="bg-error">&#128567 Positif: <span id="terjangkit"></span></td>
+        <td class="bg-dark">&#128557 Meninggal: <span id="meninggal"></span></td>
     </tr>
+    <tr>
+    <td class="bg-success"  colspan="2">&#128522 Sembuh: <span id="sembuh"></span></td>
+    <tr>
   </tbody>
 </table>
