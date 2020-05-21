@@ -8,6 +8,7 @@ $("#date").html(d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear());
      $("#terjangkit").html(result[0].positif);
      $("#sembuh").html(result[0].sembuh);
      $("#meninggal").html(result[0].meninggal);
+     $("#dirawat").html(result[0].dirawat);
     }});
 });
 </script>
@@ -22,6 +23,7 @@ $("#date").html(d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear());
     </tr>
     <tr>
     <td class="bg-success text-center" colspan="2">&#128522 Sembuh: <span id="sembuh"></span></td>
+    <td class="bg-success text-center" colspan="2">&#128522 Dirawat: <span id="dirawat"></span></td>
     <tr>
   </tbody>
 </table>
